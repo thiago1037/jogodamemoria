@@ -6,9 +6,6 @@ const validateInput = ({ target }) => {
   if (target.value.length > 3) {
     button.removeAttribute('disabled');
     return;
-  if (target.value.length < 10) {
-    button.removeAttribute('disabled');
-    return;
   }
 
   button.setAttribute('disabled', '');
